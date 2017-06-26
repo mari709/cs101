@@ -22,6 +22,8 @@ first_zip = text.find('zip')
 second_zip = text.find('zip', first_zip + 1)
 print second_zip
 
+#ANOTHER WAY:
+# print text.find('zip', text.find('zip', text.find('zip)+1)
 
 
 # IMPORTANT BEFORE SUBMITTING: 
