@@ -1,4 +1,4 @@
-page = '<ul class="nav-bar"> <li><a href="https:example.com/about">about</a></li> </ul>'
+page = '<ul class="nav-bar"> <li><a href="https://example.com/about">about</a></li> </ul>'
 
 start_link = page.find('<a href=')
 print start_link #position start link
